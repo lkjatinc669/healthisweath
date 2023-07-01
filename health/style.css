@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    /* border: 0.5px solid white; */
+}
+
+html, body{
+    height: 100vh;
+}
+
+h1{
+    font-size: 56px;
+}
+
+.navigation{
+    position: fixed;
+    width: 100%;
+    padding: 12px;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a.active{
+    border-bottom: 2px solid white;
+}
+
+.hw{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 0px 30px 30px 0;
+    text-align: center;
+    font-size:small;
+}
+
+.hw a{
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid white;
+    padding: 12px;
+}
+
+.container{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../healthbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container .text-box{
+    text-align: center;
+}
+
+.container .text-box a{
+    font-size: 12px;
+    text-decoration: none;
+    padding: 8px;
+    border: 2px solid white;
+}
+
+.container .text-box a i{
+    font-size: 18px;
+}
+
+.container .text-box .socialLinks{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
